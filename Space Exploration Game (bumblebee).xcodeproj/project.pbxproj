@@ -16,6 +16,13 @@
 		9C814B942817347B00047C9B /* Space_Exploration_Game__bumblebee_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C814B932817347B00047C9B /* Space_Exploration_Game__bumblebee_Tests.swift */; };
 		9C814B9E2817347B00047C9B /* Space_Exploration_Game__bumblebee_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C814B9D2817347B00047C9B /* Space_Exploration_Game__bumblebee_UITests.swift */; };
 		9C814BA02817347B00047C9B /* Space_Exploration_Game__bumblebee_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C814B9F2817347B00047C9B /* Space_Exploration_Game__bumblebee_UITestsLaunchTests.swift */; };
+		9C8B05C32820727700BC89D9 /* StartScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05C22820727700BC89D9 /* StartScreenController.swift */; };
+		9C8B05C52820731200BC89D9 /* GwresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05C42820731200BC89D9 /* GwresViewController.swift */; };
+		9C8B05C72820738D00BC89D9 /* PlanteraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05C62820738D00BC89D9 /* PlanteraViewController.swift */; };
+		9C8B05C9282073B200BC89D9 /* EarthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05C8282073B200BC89D9 /* EarthViewController.swift */; };
+		9C8B05CB282073C800BC89D9 /* CressenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05CA282073C800BC89D9 /* CressenViewController.swift */; };
+		9C8B05CD282073E500BC89D9 /* NoNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05CC282073E500BC89D9 /* NoNameViewController.swift */; };
+		9C8B05CF28230BF500BC89D9 /* GameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05CE28230BF500BC89D9 /* GameEndViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		9C814B992817347B00047C9B /* Space Exploration Game (bumblebee)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space Exploration Game (bumblebee)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C814B9D2817347B00047C9B /* Space_Exploration_Game__bumblebee_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_Exploration_Game__bumblebee_UITests.swift; sourceTree = "<group>"; };
 		9C814B9F2817347B00047C9B /* Space_Exploration_Game__bumblebee_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_Exploration_Game__bumblebee_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C8B05C22820727700BC89D9 /* StartScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenController.swift; sourceTree = "<group>"; };
+		9C8B05C42820731200BC89D9 /* GwresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GwresViewController.swift; sourceTree = "<group>"; };
+		9C8B05C62820738D00BC89D9 /* PlanteraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanteraViewController.swift; sourceTree = "<group>"; };
+		9C8B05C8282073B200BC89D9 /* EarthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthViewController.swift; sourceTree = "<group>"; };
+		9C8B05CA282073C800BC89D9 /* CressenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CressenViewController.swift; sourceTree = "<group>"; };
+		9C8B05CC282073E500BC89D9 /* NoNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNameViewController.swift; sourceTree = "<group>"; };
+		9C8B05CE28230BF500BC89D9 /* GameEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEndViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +116,13 @@
 				9C814B7C2817347A00047C9B /* AppDelegate.swift */,
 				9C814B7E2817347A00047C9B /* SceneDelegate.swift */,
 				9C814B802817347A00047C9B /* ViewController.swift */,
+				9C8B05C22820727700BC89D9 /* StartScreenController.swift */,
+				9C8B05C42820731200BC89D9 /* GwresViewController.swift */,
+				9C8B05C62820738D00BC89D9 /* PlanteraViewController.swift */,
+				9C8B05C8282073B200BC89D9 /* EarthViewController.swift */,
+				9C8B05CA282073C800BC89D9 /* CressenViewController.swift */,
+				9C8B05CC282073E500BC89D9 /* NoNameViewController.swift */,
+				9C8B05CE28230BF500BC89D9 /* GameEndViewController.swift */,
 				9C814B822817347A00047C9B /* Main.storyboard */,
 				9C814B852817347B00047C9B /* Assets.xcassets */,
 				9C814B872817347B00047C9B /* LaunchScreen.storyboard */,
@@ -258,9 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8B05CD282073E500BC89D9 /* NoNameViewController.swift in Sources */,
+				9C8B05CB282073C800BC89D9 /* CressenViewController.swift in Sources */,
 				9C814B812817347A00047C9B /* ViewController.swift in Sources */,
+				9C8B05C9282073B200BC89D9 /* EarthViewController.swift in Sources */,
+				9C8B05C72820738D00BC89D9 /* PlanteraViewController.swift in Sources */,
 				9C814B7D2817347A00047C9B /* AppDelegate.swift in Sources */,
+				9C8B05CF28230BF500BC89D9 /* GameEndViewController.swift in Sources */,
+				9C8B05C52820731200BC89D9 /* GwresViewController.swift in Sources */,
 				9C814B7F2817347A00047C9B /* SceneDelegate.swift in Sources */,
+				9C8B05C32820727700BC89D9 /* StartScreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
