@@ -8,7 +8,8 @@
 import UIKit
 
 class StartScreenViewController: UIViewController {
-
+    @IBOutlet weak var background: UIImageView!
+    
     @IBOutlet weak var characterDescription: UILabel!
     @IBOutlet weak var characterPhoto: UIImageView!
     @IBOutlet weak var chooseCharacterButtonOutlet: UIButton!
@@ -50,6 +51,7 @@ class StartScreenViewController: UIViewController {
         backBumblebutton.isHidden = true
         backButton.isHidden = true
         JASONdescription.isHidden = true
+        background.image = UIImage(named: "Spotlight")
         
     }
     
@@ -67,6 +69,8 @@ class StartScreenViewController: UIViewController {
         
         JASONdescription.isHidden = false
         JASONdescription.text = "Jason is a pyrotechnician from a distant red giant star system. The town in which he lived was located in a series of hollowed out caverns to avoid the burning heat of their star. Sadly, when he was 18, this tunnel system collapsed, killing his friends and family. He lost his arms in this same accident, and is a bilateral amputee. He wandered the galaxy for a few years, and attended an engineering school for one of them. He designed and built his current pair of cybernetic arms. He is easygoing, witty, and fond of jokes and pranks."
+        
+        background.image = UIImage(named: "Image")
     }
     
     
@@ -81,6 +85,7 @@ class StartScreenViewController: UIViewController {
         backBumblebutton.isHidden = true
         backButton.isHidden = true
         JASONdescription.isHidden = true
+        background.image = UIImage(named: "Spotlight")
         
     }
     
