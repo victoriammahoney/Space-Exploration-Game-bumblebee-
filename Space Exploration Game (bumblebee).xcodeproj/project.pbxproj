@@ -23,6 +23,7 @@
 		9C8B05CB282073C800BC89D9 /* CressenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05CA282073C800BC89D9 /* CressenViewController.swift */; };
 		9C8B05CD282073E500BC89D9 /* NoNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05CC282073E500BC89D9 /* NoNameViewController.swift */; };
 		9C8B05CF28230BF500BC89D9 /* GameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B05CE28230BF500BC89D9 /* GameEndViewController.swift */; };
+		9CE66EB22829B2F200ACB5A8 /* OrchidaceaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE66EB12829B2F200ACB5A8 /* OrchidaceaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		9C8B05CA282073C800BC89D9 /* CressenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CressenViewController.swift; sourceTree = "<group>"; };
 		9C8B05CC282073E500BC89D9 /* NoNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNameViewController.swift; sourceTree = "<group>"; };
 		9C8B05CE28230BF500BC89D9 /* GameEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEndViewController.swift; sourceTree = "<group>"; };
+		9CE66EB12829B2F200ACB5A8 /* OrchidaceaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchidaceaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				9C8B05C22820727700BC89D9 /* StartScreenController.swift */,
 				9C8B05C42820731200BC89D9 /* GwresViewController.swift */,
 				9C8B05C62820738D00BC89D9 /* PlanteraViewController.swift */,
+				9CE66EB12829B2F200ACB5A8 /* OrchidaceaViewController.swift */,
 				9C8B05C8282073B200BC89D9 /* EarthViewController.swift */,
 				9C8B05CA282073C800BC89D9 /* CressenViewController.swift */,
 				9C8B05CC282073E500BC89D9 /* NoNameViewController.swift */,
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8B05CD282073E500BC89D9 /* NoNameViewController.swift in Sources */,
+				9CE66EB22829B2F200ACB5A8 /* OrchidaceaViewController.swift in Sources */,
 				9C8B05CB282073C800BC89D9 /* CressenViewController.swift in Sources */,
 				9C814B812817347A00047C9B /* ViewController.swift in Sources */,
 				9C8B05C9282073B200BC89D9 /* EarthViewController.swift in Sources */,
